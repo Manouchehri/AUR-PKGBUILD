@@ -33,8 +33,8 @@ pkgver() {
 
 build() {
 	cd "${srcdir}/${_gitname}"
-	./autogen.sh
-	./configure --prefix=/usr
+	# ./autogen.sh
+	# ./configure --prefix=/usr
 	make
 }
 
