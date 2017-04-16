@@ -39,7 +39,7 @@ build() {
 }
 
 package() {
-  cd "${srcdir}/${_gitname}"
+	cd "${srcdir}/${_gitname}"
 }
 
 # vim:set et sw=2 sts=2 tw=80:
